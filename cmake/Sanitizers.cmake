@@ -1,5 +1,5 @@
 function(
-  myproject_enable_sanitizers
+  fltk_tetris_enable_sanitizers
   project_name
   ENABLE_SANITIZER_ADDRESS
   ENABLE_SANITIZER_LEAK

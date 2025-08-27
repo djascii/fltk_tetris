@@ -1,6 +1,6 @@
 #include <catch2/catch_test_macros.hpp>
 
-#include <myproject/sample_library.hpp>
+#include <fltk_tetris/sample_library.hpp>
 
 TEST_CASE("Factorials are computed with constexpr", "[factorial]")
 {

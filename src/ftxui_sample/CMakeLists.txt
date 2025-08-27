@@ -2,8 +2,8 @@ add_executable(intro main.cpp)
 
 target_link_libraries(
   intro
-  PRIVATE myproject::myproject_options
-          myproject::myproject_warnings)
+  PRIVATE fltk_tetris::fltk_tetris_options
+          fltk_tetris::fltk_tetris_warnings)
 
 target_link_system_libraries(
   intro
